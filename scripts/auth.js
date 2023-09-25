@@ -1,8 +1,7 @@
 
 //get data
 db.collection('guides').get().then(snapshot => {
-    console.log(snapshot.docs);
-    // setupGuides(snapshot.docs);
+    setupGuides(snapshot.docs);
   });
 
 // listen for auth status changes
