@@ -141,7 +141,9 @@
 
     // Initialize Firestore
     const db = firebase.firestore();
-
+    
+    // update firestore settings
+    db.settings({ timestampsInSnapshots: true });
   </script>
     
    <!-- Compiled and minified JavaScript -->
