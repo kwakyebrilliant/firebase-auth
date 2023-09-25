@@ -1,5 +1,7 @@
 // DOM elements
 const guideList = document.querySelector('.guides');
+const loggedOutLinks = document.querySelectorAll('.logged-out');
+const loggedInLinks = document.querySelectorAll('.logged-in');
 
 //setup guides
 const setupGuides = (data) => {
