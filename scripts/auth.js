@@ -1,5 +1,3 @@
-
-
 // listen for auth status changes
 auth.onAuthStateChanged(user => {
     if (user) {
@@ -13,6 +11,10 @@ auth.onAuthStateChanged(user => {
       setupGuides([]);
     }
   });
+
+  // create new guide
+  const createForm = document.querySelector('#create-form');
+  
 
 // signup
 const signupForm = document.querySelector('#signup-form');
