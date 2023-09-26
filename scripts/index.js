@@ -3,6 +3,12 @@ const guideList = document.querySelector('.guides');
 const loggedOutLinks = document.querySelectorAll('.logged-out');
 const loggedInLinks = document.querySelectorAll('.logged-in');
 
+const setupUI = (user) => {
+  if (user) {
+    // toggle user UI elements
+  }
+}
+
 //setup guides
 const setupGuides = (data) => {
 
