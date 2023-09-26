@@ -6,6 +6,10 @@ const loggedInLinks = document.querySelectorAll('.logged-in');
 const setupUI = (user) => {
   if (user) {
     // toggle user UI elements
+    loggedInLinks.forEach(item => item.style.display = 'block');
+    loggedOutLinks.forEach(item => item.style.display = 'none');
+  } else {
+    
   }
 }
 
