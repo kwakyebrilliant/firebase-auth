@@ -1,3 +1,6 @@
+// add admin cloud function
+
+
 // listen for auth status changes
 auth.onAuthStateChanged(user => {
   if (user) {
